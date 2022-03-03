@@ -58,13 +58,17 @@ img{
     height: 140px;
 }
 
+.green{
+    color: var(--share);
+}
+
 /* #endregion Utility */
 
 /* #region Main */
 
 #site_main{
     background-color: var(--bg_dark);
-    height: 90vh;
+    height: 91vh;
     padding: 90px;
     flex-wrap: wrap;
     gap: 15px 7px;
@@ -99,7 +103,38 @@ img{
 
 #site_footer{
     background-color: var(--footer_bg);
-    height: 10vh;
+    color: var(--light);
+    font-size: 13px;
+    height: 9vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_left,.menu_center,.menu_right{
+    align-items: center;
+    column-gap: 17px;
+}
+
+.menu_left{
+    padding-left: 10px;
+}
+
+.button{
+    flex-direction: column;
+    row-gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button>i{
+    font-size: 28px;
+}
+
+.menu_right{
+    background-color: var(--bg_function);
+    color: var(--end);
+    padding: 0 22px;
+    height: 100%;
 }
 
 /* #endregion Footer */
