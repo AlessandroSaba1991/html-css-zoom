@@ -1,0 +1,21 @@
+/* #region Colour */
+
+:root {
+    --footer_bg: rgba(34, 34, 34, 1);
+    --bg_function: rgba(74, 74, 74, 1);
+    --bg_text: rgba(74, 74, 74, 0,15);
+    --share: rgba(75, 200, 0, 1);
+    --end: rgba(220, 38, 28, 1);    
+}
+
+/* #endregion Colour */
+
+/* #region Common */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #endregion Common */
