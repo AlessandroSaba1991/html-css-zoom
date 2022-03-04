@@ -53,9 +53,18 @@ img{
     border-radius: 5px;
 }
 
+.container{
+    width: 90%;
+    height: 90%;
+    flex-wrap: wrap;
+    gap: 15px 7px;
+    align-content: center;
+    justify-content: center;
+}
+
 .card{
-    width: 242px;
-    height: 140px;
+    width: calc(100% / 7 - 7px);
+    height: calc(100% / 5 - 15px);
 }
 
 .green{
@@ -69,11 +78,9 @@ img{
 #site_main{
     background-color: var(--bg_dark);
     height: 91vh;
-    padding: 90px;
-    flex-wrap: wrap;
-    gap: 15px 7px;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    
 }
 
 .function{
