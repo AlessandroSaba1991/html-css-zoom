@@ -65,7 +65,7 @@ img{
 
 .card{
     width: 250px;
-    height: 130px;
+    height: 135px;
 }
 
 .green{
@@ -113,7 +113,7 @@ img{
     background-color: var(--footer_bg);
     color: var(--light);
     font-size: 13px;
-    height: 9vh;
+    height: 90px;
     justify-content: space-between;
     align-items: center;
 }
